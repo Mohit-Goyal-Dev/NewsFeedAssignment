@@ -1,3 +1,8 @@
+/*
+Citi Logo Color : #003B70
+
+*/
+
 /* ----------BASIC SETUP---------- */
 * {
     margin: 0;
@@ -12,7 +17,9 @@ html {
     font-size: 20px;
     font-weight: 300;
 }
-
+body {
+    min-width: 450px;
+}
 /* ----------REUSEABLE COMPONENTS---------- */
 .row {
     max-width: 1140px;
@@ -22,7 +29,7 @@ html {
 
 /* ----------HEADER AREA AND LOGO---------- */
 header {
-    background-color: #2980b9;
+    background-color: #2472a4;
     padding: 20px;
     height: 100px;
     width: 100%;
@@ -51,7 +58,7 @@ h1 {
     margin: 100px auto 100px auto;
     border-spacing: 1;
     border-collapse: collapse;
-    width: 70%;
+    width: 80%;
     /*    background-color: #89c3eb;*/
     /*    background-color: #b1d6ee;*/
     /*    background-color: #c3d5f2;*/
@@ -64,16 +71,16 @@ h1 {
 }
 
 table th:first-child {
-    width: 50%;
+    width: 40%;
 }
 
 table th:last-child {
-    width: 25%;
+    width: 30%;
 }
 
 table th {
-    /*    background-color: #56a9e1;*/
-    background-color: #2980b9;
+/*    background-color: #2980b9;*/
+    background-color: #003B70;
     text-align: center;
     color: white;
     padding: 15px 25px;
@@ -82,7 +89,7 @@ table th {
 
 table td {
     padding: 15px 25px;
-    font-size: 17px;
+    font-size: 16px;
     color: inherit;
 }
 
@@ -97,8 +104,9 @@ table td a:hover {
 }
 
 tbody tr {
-    color: #5e5e5e;
-    transition: transform 0.4s, color 0.4s, background 0.4s;
+/*    color: #5e5e5e;*/
+    transition: color 0.2s;
+/*    transition: transform 0.4s, color 0.4s, background 0.4s;*/
 }
 
 tbody tr:nth-child(odd) {
@@ -106,11 +114,10 @@ tbody tr:nth-child(odd) {
 }
 
 tbody tr:hover {
-    /*    color: #555555;*/
-    background: #56a9e1;
-    /*    cursor: pointer;*/
-    transform: scale(1.01);
-    color: #fff;
+/*    background: #56a9e1;*/
+/*    background: #2980b9;*/
+/*    transform: scale(1.01);*/
+    color: #000;
     font-weight: 400;
 }
 
