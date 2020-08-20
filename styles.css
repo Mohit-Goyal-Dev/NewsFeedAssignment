@@ -15,7 +15,7 @@ html {
 
 /* ----------REUSEABLE COMPONENTS---------- */
 .row {
-    /*    max-width: 1140px;*/
+    max-width: 1140px;
     margin: 0 auto;
     width: 100%;
 }
@@ -126,7 +126,8 @@ tbody tr:hover {
     .logo {
         display: block;
     }
+
     .row {
-	width: 100%;
-}
+        width: 100%;
+    }
 }
