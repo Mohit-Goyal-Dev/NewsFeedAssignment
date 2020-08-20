@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    color: black;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.tb-shadow {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+header {
+    background-color: #2980b9;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    float: left;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    word-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.table-main {
+    margin: 100px auto 100px auto;
+    border-spacing: 1;
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: #89c3eb;
+    padding: 30px;
+}
+
+table th:first-child {
+    width: 50%;
+    border-radius: 10px 0 0 0;
+}
+
+table th:last-child {
+    width: 25%;
+    border-radius: 0 10px 0 0;
+}
+
+table th {
+    background-color: #56a9e1;
+    text-align: justify;
+    color: white;
+    padding: 15px 25px;
+
+}
+
+table td {
+    padding: 15px 25px;
+    font-size: 17px;
+    color: inherit;
+}
+
+table td a {
+    text-decoration: none;
+    color: inherit;
+    transition: text-decoration 0.4s;
+}
+
+table td a:hover {
+    text-decoration: underline;
+}
+
+tbody tr {
+    color: #5e5e5e;
+    transition: transform 0.4s, color 0.4s, background 0.4s;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+tbody tr:hover {
+    /*    color: #555555;*/
+    background: #2980b9;
+    cursor: pointer;
+    transform: scale(1.01);
+    color: #fff;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        background-color: #2980b9;
+        padding: 20px;
+        height: auto;
+        width: 100%;
+    }
+}
