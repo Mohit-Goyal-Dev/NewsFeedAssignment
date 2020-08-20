@@ -17,6 +17,7 @@ html {
 .row {
     max-width: 1140px;
     margin: 0 auto;
+    width: 100%;
 }
 
 /* ----------HEADER AREA AND LOGO---------- */
@@ -49,7 +50,6 @@ h1 {
 .table-main {
     margin: 100px auto 100px auto;
     border-spacing: 1;
-    border-radius: 10px;
     border-collapse: collapse;
     width: 70%;
     background-color: #89c3eb;
@@ -62,17 +62,15 @@ h1 {
 
 table th:first-child {
     width: 50%;
-    border-radius: 10px 0 0 0;
 }
 
 table th:last-child {
     width: 25%;
-    border-radius: 0 10px 0 0;
 }
 
 table th {
     background-color: #56a9e1;
-    text-align: justify;
+    text-align: center;
     color: white;
     padding: 15px 25px;
 
@@ -106,7 +104,7 @@ tbody tr:nth-child(odd) {
 tbody tr:hover {
     /*    color: #555555;*/
     background: #2980b9;
-    cursor: pointer;
+/*    cursor: pointer;*/
     transform: scale(1.01);
     color: #fff;
     font-weight: 400;
@@ -120,4 +118,7 @@ tbody tr:hover {
         height: auto;
         width: 100%;
     }
+    .logo {
+	display: block;
+}
 }
